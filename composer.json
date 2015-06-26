@@ -1,0 +1,29 @@
+{
+  "name": "lare_team/twig_lare",
+  "type": "library",
+  "description": "Lare backend for Twig",
+  "keywords": ["templating"],
+  "homepage": "http://iekadou.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonas Braun",
+      "email": "jonas@iekadou.com",
+      "homepage": "http://iekadou.com",
+      "role": "Project Founder"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "twig/twig": "~1.0",
+    "lare_team/php_lare": ">=1.0.0"
+  },
+  "autoload": {
+    "files": ["src/Twig_Lare/TwigLareExtends.php", "src/Twig_Lare/TwigLareExtension.php"]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
